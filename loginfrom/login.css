@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-image: url("img2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 70vh;
+    width: 130vh;
+    display: flex;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    width: 65vh;
+    border: 2px solid rgb(255, 255, 255);
+    background-color:#fd891b;
+}
+.right{
+    width: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(255, 255, 255);
+}
+#welcome{
+    font-size: 2rem;
+    color: yellow;
+    position: relative;
+    top: 25vh;
+}
+.left h1{
+    position: relative;
+    top: 5vh;
+    color: #ffffff;
+    font-size: 2.6rem;
+    left: 8rem;
+}
+#tcsc{
+    color: white;
+    position: relative;
+    top: 50vh;
+    right: 22vh;
+
+}
+.firstline h1{
+    margin-top: 1.4rem;
+}
+.secondline{
+    display: flex;
+    position: relative;
+    top: -2vh;
+}
+.secondline button{
+    margin-left: 1rem;
+    border: none;
+    background-color: white;
+}
+.l1 ,.l2{
+    font-size: 2.7vh;
+}
+input{
+    width: 20rem;
+    height: 2rem;
+}
+.login button{
+    width: 20.2rem;
+    height: 3rem;
+    color: white;
+    background: blue;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+a{
+    color: blue;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-image: url("img2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.registration{
+    width: 100vh;
+    height: 100vh;
+}
+.marq{
+    margin-top: 6vh;
+    align-items: center;
+    height: 6vh;
+}
+marquee{
+    width: 100vh;
+    color: white;
+    font-size: 4vh;
+}
+.main{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-top: 5vh;
+    width: 100vh;
+    height: 80vh;
+    background-color: hsl(292, 50%, 88%);
+}
+.submain{
+    font-size: 3.2vh;
+    border-radius: 1rem;
+    width:100vh;
+}
+.name ,.student ,.already ,.course ,.registerbutton
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.already button{
+    font-size: 2.4vh;
+    background-color: hsl(292, 50%, 88%);
+}
+a{
+    color: red;
+}
+.dob{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+button{
+    border: none;
+}
+.rgbutton{
+    background: blue;
+    width: 70vh;
+    height: 5vh;
+    color: white;
+    font-size: 2.4vh;
+}
+select{
+    width: 45vh;
+    height: 5vh;
+}
+input{
+    height: 4vh;
+    width: 30vh;
+}
+.login{
+    margin-left: 2vh;
+}
+.lname ,.l2 ,.l4 ,.dateOfBirth{
+    margin-left: 2vh;
+}
