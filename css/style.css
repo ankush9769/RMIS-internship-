@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+/* .main{
+    color:blue
+}
+#main2{
+    color: pink;
+}
+div p{
+    color: green;
+}
+.first.first1  p{    
+    color: red;
+}
+.second p{
+    color: aquamarine;
+}
+div > p{
+    color: blue;
+}
+.main > p{
+    color: blueviolet;
+}
+.second p{
+    color: blue;
+} */
+
+/* .one + .two p{
+    color: red;
+} */
+
+div + p{
+    color: red;
+}
+div ~ p{
+    color: blue;
+}

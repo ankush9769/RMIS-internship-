@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+/* .one{
+    width: 100%;
+    background-color: aqua;
+}
+.two{
+    background:red;
+    width: 50%;
+}
+.three{
+    background-color: black;
+    width: 50%;
+    color: white;
+} */
+
+
+/* .one{
+    background-color: green;
+    width: 100vw;
+    height: 30vh;
+}
+.two{
+    background-color: yellow;
+    width: 80vw;
+} */
+
+/* p{
+    font-size: 25px;
+} */
+
+
+/* .one{
+    font-size: 3em;
+}
+.two{
+    font-size: 2em;
+} */
+
+
+.one{
+    font-size: 3rem;
+}
