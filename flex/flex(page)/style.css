@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Hind Siliguri", sans-serif;
+}
+.main{
+    width: 100%;
+    height:  100vh;
+    background-color: rgb(88, 168, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    width: 80%;
+    height: 80%;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    box-shadow: 10px 30px 50px rgb(0, 0, 0); 
+}
+.nav{
+    color: white;
+    display: flex;
+    margin-top: 5.5vh;
+    justify-content: space-around;
+}
+.nav1{
+    gap: 3vw;
+    display: flex;
+    align-items: center;
+}
+.ybname{
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav2{
+    font-weight: 500;
+    gap: 3.5vw;
+    display: flex;
+    align-items: center;
+}
+.nav2 i{
+    color: black;
+}
+#navbutton{
+    text-align: center;
+    width: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.mainbody{
+    width: 90%;
+    display: flex;
+    margin-top: 14vh;
+    margin-left: 40px;
+}
+.bodybox{
+    width: 50%;
+    height: 55vh;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.para{
+    color: white;
+    margin-top: 25px;
+    line-height: 4vh;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+.b1{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 120px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b1{
+    background: rgb(239, 111, 228);
+    color: white;
+}
+#b2{
+    color: white;
+}
+.upper{
+    margin-left: 200px;
+    display: flex;
+    width: 60%;
+    gap: 20px;
+}
+.upperbox{
+    width: 60%;
+    height: 204px;
+    border: 3px solid rgb(182, 225, 235);
+    border-radius: 15px;
+    background-color: rgba(1, 196, 255, 0.5);
+}
+i{
+    color: white;
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left:310px;
+    
+}
+.heading2{
+    display: flex;
+    gap: 105px;
+}
+.para2{
+    width: 150px;
+    line-height: 4vh;
+}
+.upperbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.tooth i{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.p,.doller{
+    display: flex;
+    justify-content: center;
+}
+.p{
+    margin-left: 20px;
+    width: 100px;
+}
+.nav2 i{
+    color: white;
+}
